@@ -110,32 +110,32 @@ function weatherDetails(info) {
 
     //Weather icon
     if (weatherId == 800) {
-      weatherIcon.src = "/icons/clear.svg";
-      body.style.backgroundImage = "url('/wallpapers/clear.jpg')";
+      weatherIcon.src = "/Weather-App/icons/clear.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/clear.jpg')";
     } else if (weatherId >= 200 && weatherId <= 232) {
-      weatherIcon.src = "/icons/storm.svg";
-      body.style.backgroundImage = "url('/wallpapers/storm.jpg')";
+      weatherIcon.src = "/Weather-App/icons/storm.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/storm.jpg')";
     } else if (weatherId >= 300 && weatherId <= 321) {
-      weatherIcon.src = "/icons/shower-rain.svg";
-      body.style.backgroundImage = "url('/wallpapers/rain.jpg')";
+      weatherIcon.src = "/Weather-App/icons/shower-rain.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/rain.jpg')";
     } else if (weatherId >= 500 && weatherId <= 504) {
-      weatherIcon.src = "/icons/haze.svg";
-      body.style.backgroundImage = "url('/wallpapers/haze.jpg')";
+      weatherIcon.src = "/Weather-App/icons/haze.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/haze.jpg')";
     } else if (weatherId == 511) {
-      weatherIcon.src = "/icons/snow.svg";
-      body.style.backgroundImage = "url('/wallpapers/snow.jpg')";
+      weatherIcon.src = "/Weather-App/icons/snow.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/snow.jpg')";
     } else if (weatherId >= 520 && weatherId <= 531) {
-      weatherIcon.src = "/icons/shower-rain.svg";
-      body.style.backgroundImage = "url('/wallpapers/shower-rain.jpg')";
+      weatherIcon.src = "/Weather-App/icons/shower-rain.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/shower-rain.jpg')";
     } else if (weatherId >= 600 && weatherId <= 622) {
-      weatherIcon.src = "/icons/snow.svg";
-      body.style.backgroundImage = "url('/wallpapers/snow.jpg')";
+      weatherIcon.src = "/Weather-App/icons/snow.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/snow.jpg')";
     } else if (weatherId >= 701 && weatherId <= 781) {
-      weatherIcon.src = "/icons/rain.svg";
-      body.style.backgroundImage = "url('/wallpapers/rain.jpg')";
+      weatherIcon.src = "/Weather-App/icons/rain.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/rain.jpg')";
     } else if (weatherId >= 801 && weatherId <= 804) {
-      weatherIcon.src = "/icons/cloud.svg";
-      body.style.backgroundImage = "url('/wallpapers/cloud.jpg')";
+      weatherIcon.src = "/Weather-App/icons/cloud.svg";
+      body.style.backgroundImage = "url('/Weather-App/wallpapers/cloud.jpg')";
     }
     //Weather infos
     wrapper.querySelector(".temp .number").innerText = Math.floor(temp);
