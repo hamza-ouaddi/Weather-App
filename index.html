@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="/styles.css" />
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <i class="fa-solid fa-arrow-left back-icon"></i>Weather App
+      </div>
+      <!--Input Section-->
+      <section class="input-section">
+        <p class="input-title"></p>
+        <input
+          type="text"
+          name="cityName"
+          id="cityInput"
+          placeholder="Enter city name"
+          spellcheck="false"
+          autocomplete="off"
+          required
+        />
+        <div class="buttons">
+          <button type="submit" id="submit-btn">Search</button>
+          <div id="line"></div>
+          <button type="submit" id="location-btn">
+            <i class="fa-regular fa-compass"></i>Use current location
+          </button>
+        </div>
+      </section>
+      <section class="weather-section">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <img src="#" alt="Weather Icon" class="weather-icon" srcset="" />
+        <dev class="temp">
+          <span class="number">_</span>
+          <span class="deg">°</span>C
+        </dev>
+        <div class="weather-description">_ _</div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i><span>_, _</span>
+        </div>
+        <!--Weather deails in the bottom-->
+        <div class="more-details">
+          <!--Feels like section-->
+          <div class="feels-like card">
+            <i class="fa-solid fa-temperature-half"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="number-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <!--Humidity section-->
+          <div class="humidity card">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="/script.js"></script>
+
+    <!--
+    <form action="/" method="post">
+      <label for="cityInput">City Name:</label>
+      <input id="cityInput" type="text" name="cityName" id="" />
+      <button type="submit">Search</button>
+    </form>
+    -->
+  </body>
+</html>
