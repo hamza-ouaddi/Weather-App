@@ -7,3 +7,5 @@ I used a Weather Api from "OpenWeatherMap", and I linked it with the application
   <li>The application shows the tempurature degree, the description of the weather, how it feels like, and the humidity.</li>
   <li>In addition, the webpage background changes depending on the weather, as well as the icon.</li>  
 </ul>
+
+To try "Weather App": https://hamza-ouaddi.github.io/Weather-App/
