@@ -9,3 +9,6 @@ I used a Weather Api from "OpenWeatherMap", and I linked it with the application
 </ul>
 
 To try "Weather App": https://hamza-ouaddi.github.io/Weather-App/
+
+https://github.com/hamza-ouaddi/Weather-App/assets/80076862/4a297e2d-e913-4d2e-9e5c-f5d69d3a770c
+
